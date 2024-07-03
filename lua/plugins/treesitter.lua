@@ -1,9 +1,21 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
--- Customize Treesitter
-
 ---@type LazySpec
 return {
+  {
+    "nvim-tree/nvim-web-devicons",
+
+    config = function()
+      require("nvim-web-devicons").setup({
+      override_by_extension = {
+        ["astro"] = {
+          icon = "",
+          color = "#3620B0",
+          name = "Astro",
+        },
+      },
+      })
+    end,
+      
+  },
   "nvim-treesitter/nvim-treesitter",
   opts = function(_, opts)
     -- add more things to the ensure_installed table protecting against community packs modifying it

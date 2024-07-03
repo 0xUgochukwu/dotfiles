@@ -15,6 +15,8 @@ return {
         "yamlls",
         "tsserver",
         "gopls",
+        "bashls",
+        "astro",
       })
     end,
   },
