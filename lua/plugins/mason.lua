@@ -17,6 +17,7 @@ return {
         "gopls",
         "bashls",
         "astro",
+        "prettier",
       })
     end,
   },
