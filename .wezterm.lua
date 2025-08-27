@@ -27,6 +27,8 @@ return {
 	font_size = 15,
 	line_height = 1.25,
 	-- cell_width = 1.1,
+ -- font = wezterm.font("Monaspace Neon NF"),
+    font = wezterm.font("Monaspace Argon NF"),
 	-- font = wezterm.font("JetBrainsMono Nerd Font"),
 	-- font = wezterm.font("Zed Mono"),
 	-- font = wezterm.font("Zed Mono", { stretch = "Expanded" }),
